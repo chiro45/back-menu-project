@@ -248,28 +248,30 @@
       "nombre": "Pizza Cuatro Quesos",
       "categoriaId": 5,
       "precio": 5.99,
+      "distanceCam": 4.3,
       "descripcion": "Pizza de cuatro quesos.",
       "imagen": "./assets/images/cuatroQuesos.glb",
       "alergenos": []
     },
-     {
-       "id": 2,
-       "nombre": "Pizza Rucula y jamon",
-       "categoriaId": 6,
-       "precio": 5.99,
-       "descripcion": "Pizza de rucula y jamon crudo.",
-       "imagen": "./assets/images/pizzaRucula.glb",
-       "alergenos": []
-     },
-      {
-        "id": 1,
-        "nombre": "Pizza con peperoni",
-        "categoriaId": 7,
-        "precio": 5.99,
-        "descripcion": "Pizza de peperoni.",
-        "imagen": "./assets/images/pepperoni.glb",
-        "alergenos": []
-      }
-    
+    {
+      "id": 2,
+      "nombre": "Pizza Rucula y jamon",
+      "categoriaId": 6,
+      "distanceCam": 1,
+      "precio": 5.99,
+      "descripcion": "Pizza de rucula y jamon crudo.",
+      "imagen": "./assets/images/pizzaRucula.glb",
+      "alergenos": []
+    },
+    {
+      "id": 1,
+      "nombre": "Pizza con peperoni",
+      "categoriaId": 7,
+      "precio": 5.99,
+      "distanceCam": 0.15,
+      "descripcion": "Pizza de peperoni.",
+      "imagen": "./assets/images/pepperoni.glb",
+      "alergenos": []
+    }
   ]
 }
