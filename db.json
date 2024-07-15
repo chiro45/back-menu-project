@@ -221,5 +221,55 @@
       "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
       "alergenos": []
     }
+  ],
+  "categoriasRtf": [
+    {
+      "id": 1,
+      "nombre": "Pizzas",
+      "subCategorias": [
+        {
+          "id": 5,
+          "nombre": "Cuatro Quesos"
+        },
+        {
+          "id": 6,
+          "nombre": "Rucula"
+        },
+        {
+          "id": 7,
+          "nombre": "Peperoni"
+        }
+      ]
+    }
+  ],
+  "productosRtf": [
+    {
+      "id": 1,
+      "nombre": "Pizza Cuatro Quesos",
+      "categoriaId": 5,
+      "precio": 5.99,
+      "descripcion": "Pizza de cuatro quesos.",
+      "imagen": "./assets/images/cuatroQuesos.glb",
+      "alergenos": []
+    },
+     {
+       "id": 2,
+       "nombre": "Pizza Rucula y jamon",
+       "categoriaId": 6,
+       "precio": 5.99,
+       "descripcion": "Pizza de rucula y jamon crudo.",
+       "imagen": "pizzaRucula.glb",
+       "alergenos": []
+     },
+      {
+        "id": 1,
+        "nombre": "Pizza con peperoni",
+        "categoriaId": 5,
+        "precio": 5.99,
+        "descripcion": "Pizza de peperoni.",
+        "imagen": "./assets/images/pepperoni.glb",
+        "alergenos": []
+      }
+    
   ]
 }
