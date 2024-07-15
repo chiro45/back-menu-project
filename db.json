@@ -258,13 +258,13 @@
        "categoriaId": 6,
        "precio": 5.99,
        "descripcion": "Pizza de rucula y jamon crudo.",
-       "imagen": "pizzaRucula.glb",
+       "imagen": "./assets/images/pizzaRucula.glb",
        "alergenos": []
      },
       {
         "id": 1,
         "nombre": "Pizza con peperoni",
-        "categoriaId": 5,
+        "categoriaId": 7,
         "precio": 5.99,
         "descripcion": "Pizza de peperoni.",
         "imagen": "./assets/images/pepperoni.glb",
