@@ -225,19 +225,19 @@
   "categoriasRtf": [
     {
       "id": 1,
-      "nombre": "Pizzas",
+      "nombre": "Menu",
       "subCategorias": [
         {
-          "id": 5,
-          "nombre": "Cuatro Quesos"
+          "id": 2,
+          "nombre": "Pizzas"
         },
         {
-          "id": 6,
-          "nombre": "Rucula"
+          "id": 3,
+          "nombre": "Lomos"
         },
         {
-          "id": 7,
-          "nombre": "Peperoni"
+          "id": 4,
+          "nombre": "Hamburguesas"
         }
       ]
     }
@@ -246,7 +246,7 @@
     {
       "id": 1,
       "nombre": "Pizza Cuatro Quesos",
-      "categoriaId": 5,
+      "categoriaId": 2,
       "precio": 5.99,
       "distanceCam": 0.3,
       "descripcion": "Pizza de cuatro quesos.",
@@ -256,7 +256,7 @@
     {
       "id": 2,
       "nombre": "Pizza Rucula y jamon",
-      "categoriaId": 6,
+      "categoriaId": 2,
       "distanceCam": 1,
       "precio": 5.99,
       "descripcion": "Pizza de rucula y jamon crudo.",
@@ -266,12 +266,22 @@
     {
       "id": 1,
       "nombre": "Pizza con peperoni",
-      "categoriaId": 7,
+      "categoriaId": 2,
       "precio": 5.99,
-      "distanceCam": 0.15,
       "descripcion": "Pizza de peperoni.",
+      "distanceCam": 0.15,
       "imagen": "./assets/images/pepperoni.glb",
       "alergenos": []
+    },
+    {
+      "id": 4,
+      "nombre": "Hamburguesa",
+      "categoriaId": 4,
+      "precio": 7.99,
+      "descripcion": "Jugosa hamburguesa con lechuga, tomate, y queso.",
+      "distanceCam": 0.15,
+      "imagen": "./assets/images/pepperoni.glb",
+      "alergenos": ["Gluten", "Lácteos"]
     }
   ]
 }
